@@ -2,7 +2,7 @@
   "name": "learn-life-cycle-hook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rohitazad.github.io/clock_reactjs/",
+  "homepage":"https://rohitazad.github.io/clock_reactjs/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
