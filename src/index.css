@@ -12,3 +12,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+ul.clock {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.clock li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(196, 240, 253);
+  border-radius: 8px;
+  border: 2px solid #005c77;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul.clock li + li {
+  margin-left: 10px;
+}
+
+ul.clock li .state-text{
+  border-top: 1px solid #005c77;
+  padding:5px 10px 5px 10px;
+}
+ul.clock li .dyn-text span{
+  display:inline-block;
+  vertical-align: top;
+  padding:5px;
+  padding-left:5px;
+  padding-right:10px;
+  font-size: 30px;
+}
+ul.clock li .dyn-text span + span {
+  border-left: 1px solid #005c77;
+  padding-left:10px;
+  padding-right:5px;
+}
+h2 {
+  text-align: center;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #c4f0fd;
+}
+
+.my-app {
+  width: 450px;
+  margin: 10px auto 0 auto;
+  padding: 20px;
+  background: #46cbf3;
+  border-radius: 10px;
+}
